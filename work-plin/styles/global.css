@@ -1,0 +1,38 @@
+:root {
+    --Blue: #6C63FF;
+    --Black: #000000;
+    --white: #fff;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--Blue);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--Black);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+body,
+input,
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}

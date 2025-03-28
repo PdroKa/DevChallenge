@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header>h1 {
+    font-size: 2.5rem;
+}
+
+.ellipse {
+    z-index: 99;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    right: -10rem;
+    opacity: 40%;
+}
+
+.navHeader>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.navLink {
+    color: var(--Black);
+    transition: .2s;
+}
+
+.navLink:hover {
+    color: var(--Blue);
+}
