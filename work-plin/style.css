@@ -3,11 +3,61 @@
 
 .container {
     max-width: 70rem;
+    width: 100%;
     margin: 0 auto;
-    padding: 4rem 1rem 0;
+    padding: 4rem 1rem;
     position: relative;
 }
 
 .textDecoration{
     color: var(--Blue);
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 87.5%;
+    }
+    header{
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    
+    .navHeader{
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 2rem;
+    }
+
+    .heroSection{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .heroSection img{
+        width: 100%;
+    }
+
+    .containerAsked>div{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .responses{
+        height: 0px;
+        overflow: hidden;
+        background-color: red;
+    }
+
+    footer{
+        height: auto;
+    }
+    footer>.container{
+        flex-direction: column-reverse;
+    }
+    .navFooter{
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+   
 }

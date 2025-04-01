@@ -18,11 +18,13 @@ header>h1 {
     opacity: 40%;
 }
 
-.navHeader>ul {
+.navHeader {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
     align-items: center;
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 
 .navLink {
